@@ -27,6 +27,10 @@ echo Copy Mongo Repo file for mongo client
 cp mongo.repo /etc/yum.repos.d/mongo.repo &>>/tmp/roboshop.log
 echo $?
 
+echo Clean old Application Directory
+rm -rf /app &>>/tmp/roboshop.log
+echo $?
+
 echo Create Application Directory
 mkdir /app &>>/tmp/roboshop.log
 echo $?
