@@ -21,7 +21,7 @@ echo $?
 
 echo Copy SystemD service file
 cp catalogue.service /etc/systemd/system/catalogue.service &>>/tmp/roboshop.log
-
+echo $?
 
 echo Copy Mongo Repo file for mongo client
 cp mongo.repo /etc/yum.repos.d/mongo.repo &>>/tmp/roboshop.log
