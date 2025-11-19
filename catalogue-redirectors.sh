@@ -1,3 +1,5 @@
+echo Log file output is being written to - /tmp/roboshop.log
+echo
 
 echo Disable NodeJS Default Version
 
